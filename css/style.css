@@ -1,5 +1,23 @@
+:root {
+    --primary: hsl(47, 88%, 63%);
+    --secondary: hsl(0, 0%, 100%);
+    --text-primary: hsl(0, 0%, 7%);
+    --text-secondary: hsl(0, 0%, 42%);
+    --fs-m: 16px;
+    --weight-m: 500;
+    --weight-lg: 800;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+}
+
+main {
+    background-color: var(--primary);
 }
